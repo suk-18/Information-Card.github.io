@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(7, 8, 8);
+}
+
+.main-container {
+  background-color: #f8fcff;
+  border-radius: 10px;
+  box-shadow: rgb(163, 97, 228) 1px 3px 9px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1{
+  font-size: 24px;
+  color: #e70a0a;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: cursive;
+  border-bottom: 3px outset rgb(217, 62, 217);
+}
+
+h1:hover{
+  color: rgb(241, 15, 166);
+  scale: 0.9;
+}
+
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.label {
+  font-weight: 500;
+  color: #f83535;
+  flex: 1;
+}
+
+.userInfo span {
+  flex: 2;
+  color: #f53d0a;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.infoCard {
+  text-align: center;
+}
